@@ -1,0 +1,56 @@
+{
+	"name": "@helixer/live-queries",
+	"version": "0.0.2",
+	"description": "Helixer GraphQL Live Queries client using Server Sent Events",
+	"main": "lib/index.js",
+	"files": [
+		"lib"
+	],
+	"exports": {
+		".": {
+			"types": "./lib/index.d.ts",
+			"svelte": "./lib/index.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/helixerio/live-queries-client.git"
+	},
+	"keywords": [
+		"sse",
+		"server-side-events",
+		"server-sent-events",
+		"eventsource",
+		"sse-ts",
+		"sse-es6",
+		"live-queries"
+	],
+	"publishConfig": {
+		"registry": "https://verdaccio.leafblower.helixer.io/"
+	},
+	"author": "Tommy Maintz <tommy.maintz@gmail.com>",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/helixerio/live-queries-client/issues"
+	},
+	"homepage": "https://github.com/helixerio/live-queries-client",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"eslint": "^8.28.0",
+		"graphql": "^16.8.0",
+		"houdini": "^1.2.9",
+		"prettier": "^2.8.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"fast-json-patch": "^3.1.1"
+	}
+}

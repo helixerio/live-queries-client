@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": "./src",
+		"checkJs": true,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"ignoreDeprecations": "5.0",
+		"importsNotUsedAsValues": "error",
+		"isolatedModules": true,
+		"lib": ["esnext", "DOM", "DOM.Iterable"],
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"outDir": "./lib",
+		"preserveValueImports": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "esnext"
+	}
+}
